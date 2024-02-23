@@ -1,0 +1,122 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* initial setting */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+.d-between {
+    justify-content: space-between;
+}
+.d-center {
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 20px;
+    color: #71767b;
+}
+/* container */
+.container {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/img/bg-8.jpg);
+    background-size: cover;
+}
+/* tweet card */
+.tweet {
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 26px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* tweet top */
+
+.tweet_user--img img {
+    width: 55px;
+    height: 55px;
+    border-radius: 4px;
+}
+
+.tweet_info {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.valid {
+    width: 24px;
+    height: 24px;
+    margin: 2px 5px 0 5px;
+}
+
+.tweet_id {
+    color: RGB(113, 118, 123);
+    font-size: 1.1rem;
+    position: relative;
+    top: 6px;
+}
+
+.tweet_date {
+    color: RGB(113, 118, 123);
+    font-size: 1.1rem;
+    position: relative;
+    top: 6px;
+    margin: 0 5px;
+}
+
+.tweet_caption {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.tweet_caption span {
+    color: #1a89d4;
+}
+
+.tweet_more {
+    margin-left: 54px;
+}
+
+/* tweet image */
+.tweet_img {
+    text-align: end;
+    margin: 10px 0 24px 60px;
+}
+.tweet_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* icon */
+.tweet_icon {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #71767b;
+}
+.icon-right div {
+    padding: 0 12px;
+}
+
+.icon-left i {
+    padding: 0 12px;
+}
+
+hr {
+    margin-bottom: 12px;
+    color: #9a9ea2;
+}
