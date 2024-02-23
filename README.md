@@ -1,8 +1,8 @@
-# Instagram Post
+# Twitter Post
 
-![logo](https://github.com/imlilac/instagram-card/blob/main/img/banner.jpg)
+![logo](https://github.com/imlilac/twitter-post/blob/main/assets/img/logo.jpg)
 
-Designing a simple instagram card using HTML5 & CSS.
+Designing a simple twitter card using HTML5 & CSS.
 
 ## Table of contents
 
